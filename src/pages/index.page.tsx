@@ -1,5 +1,7 @@
 'use client';
 
+import Script from 'next/script';
+
 export default function Home() {
   return (
     <>
@@ -52,6 +54,8 @@ export default function Home() {
           </div>
         </section>
       </div>
+      <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></Script>
+      <Script src="assets/js/comingsoon.js"></Script>
     </>
   );
 }

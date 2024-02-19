@@ -19,8 +19,6 @@ const MyDocument = () => {
       </Head>
       <body>
         <Main />
-        <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></Script>
-        <Script src="assets/js/comingsoon.js"></Script>
         <NextScript />
       </body>
     </Html>
